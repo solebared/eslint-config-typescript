@@ -1,6 +1,6 @@
 {
   "name": "@exercism/eslint-config-typescript",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ESLint configuration for the TypeScript track on Exercism",
   "main": "index.js",
   "scripts": {
@@ -9,12 +9,12 @@
   "author": "Derk-Jan Karrenbeld <derk-jan+git@karrenbeld.info> (https://derk-jan.com)",
   "license": "MIT",
   "peerDependencies": {
-    "@babel/core": ">= 7.14",
-    "eslint": ">= 7"
+    "eslint": ">= 7",
+    "typescript": "*"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.6",
-    "eslint": "^7.28.0"
+    "eslint": "^7.28.0",
+    "typescript": "^4.3.2"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.27.0",
