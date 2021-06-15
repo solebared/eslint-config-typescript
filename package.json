@@ -1,6 +1,6 @@
 {
   "name": "@exercism/eslint-config-typescript",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "ESLint configuration for the TypeScript track on Exercism",
   "main": "index.js",
   "scripts": {

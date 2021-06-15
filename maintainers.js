@@ -94,7 +94,6 @@ module.exports = {
     'no-extend-native': 'error',
     'no-implicit-coercion': 'error',
     'no-promise-executor-return': 'error',
-    'no-shadow': 'error',
     'no-unreachable-loop': 'error',
     'no-unsafe-optional-chaining': 'error',
     'require-atomic-updates': 'error',
