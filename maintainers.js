@@ -100,7 +100,7 @@ module.exports = {
     'require-atomic-updates': 'error',
 
     // plugin:import rules
-    'import/extensions': ['error', { js: 'never', json: 'always' }],
+    'import/extensions': ['error', { ts: 'never', json: 'always' }],
     'import/no-default-export': 'warn',
     'import/no-unresolved': 'error',
     'import/prefer-default-export': 'off',
@@ -110,15 +110,21 @@ module.exports = {
     // 'linebreak-style': ['error', 'unix'],
     // quotes: ['error', 'single'],
     // semi: ['error', 'always'],
-
-    overrides: [
-      {
-        // enable the rule specifically for TypeScript files
-        files: ['*.ts', '*.tsx'],
-        rules: {
-          '@typescript-eslint/explicit-module-boundary-types': ['error'],
-        },
-      },
-    ],
   },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.ts'],
+      },
+    },
+  },
+  overrides: [
+    {
+      // enable the rule specifically for TypeScript files
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        '@typescript-eslint/explicit-module-boundary-types': 'error',
+      },
+    },
+  ],
 };
