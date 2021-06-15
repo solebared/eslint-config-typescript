@@ -37,6 +37,12 @@ module.exports = {
       },
     ],
 
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'error',
+
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'warn',
+
     // @typescript-eslint rules: code style not forced upon the student
     '@typescript-eslint/array-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
@@ -83,7 +89,6 @@ module.exports = {
     'no-extend-native': 'warn',
     'no-implicit-coercion': 'warn',
     'no-promise-executor-return': 'warn',
-    'no-shadow': 'warn',
     'no-unreachable-loop': 'warn',
     'no-unsafe-optional-chaining': 'error',
     'require-atomic-updates': 'warn',
