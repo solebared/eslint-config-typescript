@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.0
+
+- Update to eslint 8+
+
 ## 0.3.0
 
 - Update dependencies
